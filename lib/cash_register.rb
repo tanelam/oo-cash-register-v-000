@@ -19,7 +19,9 @@ class CashRegister
     end
   end
 
-  def item 
+  def items 
+    new_register = self.new
+  end 
 
 
 end
