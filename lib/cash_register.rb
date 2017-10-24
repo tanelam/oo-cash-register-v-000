@@ -22,7 +22,7 @@ class CashRegister
 
   def items
     new_register = CashRegister.new
-    @@all << items
+    items.collect {|item| @@all << item}
   end
 
 
