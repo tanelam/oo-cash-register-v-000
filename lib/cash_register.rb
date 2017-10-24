@@ -24,7 +24,6 @@ class CashRegister
 
   def items
     title.collect { |x| @item << x}
-    @item << title
   end
 
 
