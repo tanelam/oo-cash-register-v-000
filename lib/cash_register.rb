@@ -23,6 +23,7 @@ class CashRegister
   end
 
   def items
+    
     @item << title
   end
 
