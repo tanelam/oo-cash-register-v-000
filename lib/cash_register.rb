@@ -19,9 +19,10 @@ class CashRegister
     end
   end
 
-  def items 
+  def items
     new_register = self.new
-  end 
+    new_register << add_item
+  end
 
 
 end
