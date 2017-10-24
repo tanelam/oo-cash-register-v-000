@@ -22,10 +22,5 @@ class CashRegister
     end
   end
 
-  def items(shopping)
-    new_register = CashRegister.new
-    shopping.collect {|item| @@all << item}
-  end
-
 
 end
