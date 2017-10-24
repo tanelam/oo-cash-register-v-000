@@ -7,7 +7,8 @@ class CashRegister
   end
 
   def add_item(quantity=0)
-  
+  end
+
 
 
 
