@@ -23,7 +23,7 @@ class CashRegister
   end
 
   def items
-    
+    title.each { |x| @item << x}
     @item << title
   end
 
