@@ -6,7 +6,7 @@ class CashRegister
     @discount = discount
   end
 
-  def add_item(title, price, quantity=1)
+  def add_item(title, price, quantity)
     self.total += price
     quantity = quantity.times{ |x| x * price}
 
