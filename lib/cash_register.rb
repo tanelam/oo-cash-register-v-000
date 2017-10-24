@@ -23,7 +23,6 @@ class CashRegister
 
   def items
     new_register = CashRegister.new
-    items.collect {|item| @@all << item}
   end
 
 
