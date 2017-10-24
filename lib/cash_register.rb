@@ -1,5 +1,6 @@
 class CashRegister
   attr_accessor :total, :discount
+  @@all = []
 
   def initialize(discount=0)
     @total = 0
@@ -21,7 +22,7 @@ class CashRegister
 
   def items
     new_register = CashRegister.new
-    new_register << add_item
+    @@all << items
   end
 
 
