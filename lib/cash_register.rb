@@ -23,7 +23,7 @@ class CashRegister
   end
 
   def items
-    title.collect { |x| @item << x}
+    self.title.collect { |x| @item << x}
   end
 
 
