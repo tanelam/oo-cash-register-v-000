@@ -9,7 +9,6 @@ class CashRegister
 
   def add_item(title, price, quantity=1)
     self.total += price * quantity
-    title.collect {|item| @@all << item}
   end
 
   def apply_discount
@@ -21,8 +20,9 @@ class CashRegister
     end
   end
 
-  def items
+  def items(shopping)
     new_register = CashRegister.new
+    shopping.collect {|item| @@all << item}
   end
 
 
