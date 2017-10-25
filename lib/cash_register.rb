@@ -22,12 +22,12 @@ class CashRegister
   end
 
   def items
-      
+
       @item << title
   end
 
   def void_last_transaction
-   self.total = self.last_transaction - self.total
+    self.total = self.total - self.last_transaction
   end
 
 end
