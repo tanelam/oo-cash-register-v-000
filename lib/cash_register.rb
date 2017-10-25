@@ -22,7 +22,7 @@ class CashRegister
   end
 
   def items
-      title.each {|item| @items << item }
+      @items.each {|item| @items << item }
   end
 
   def void_last_transaction
